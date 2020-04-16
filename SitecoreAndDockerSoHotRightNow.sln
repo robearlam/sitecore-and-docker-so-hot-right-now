@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.98
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".SolutionItems", ".SolutionItems", "{00312A29-B5AD-4F56-9CB5-9BFF89DDB9A8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{E89E24CC-45E5-4FB1-AC08-1275307CA859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Sample", "src\Feature\Feature.Sample\Feature.Sample.csproj", "{AE9AE4F4-D995-41BA-BB85-F2346ACD01FF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE9AE4F4-D995-41BA-BB85-F2346ACD01FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9AE4F4-D995-41BA-BB85-F2346ACD01FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9AE4F4-D995-41BA-BB85-F2346ACD01FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9AE4F4-D995-41BA-BB85-F2346ACD01FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE9AE4F4-D995-41BA-BB85-F2346ACD01FF} = {E89E24CC-45E5-4FB1-AC08-1275307CA859}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DA9C899-6AE2-4CF4-A321-B1DED3331E47}
