@@ -1,5 +1,7 @@
 ﻿using Feature.Zoolander.Website.Models;
 using Sitecore.XA.Foundation.Mvc.Repositories.Base;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Feature.Zoolander.Website.Repositories
 {
@@ -7,18 +9,21 @@ namespace Feature.Zoolander.Website.Repositories
     {
         public override IRenderingModelBase GetModel()
         {
-            var model = new CastListModel();
-
-            model.Title = GetTitle();
+            var model = new CastListModel
+            {
+                Cast = GetCastList()
+            };
 
             return model;
         }
 
-        private string GetTitle()
+        private List<CastMemberModel> GetCastList()
         {
-            //return PageContext.Current[Templates_Title.Fields.Title];
-
-            return "PAGE TITLE";
+            if(Rendering.DataSourceItem != null)
+            {
+                return Rendering.DataSourceItem.Children.Select(x => new CastMemberModel(x)).ToList();
+            }
+            return new List<CastMemberModel>();
         }
     }
 }

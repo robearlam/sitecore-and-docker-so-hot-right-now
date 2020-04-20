@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {57AF0D6F-5FF1-4992-B9EB-7E8E9C3E5CE3}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Data/Cast List/Larry Zoolander
+parent: {AD5DC2F0-FD6C-45A4-B6D5-C10CAE16087A}
+name: Larry Zoolander
+master: {00000000-0000-0000-0000-000000000000}
+template: {FB511BAF-3FFF-49A3-B070-C62147DE7C0F}
+templatekey: Cast Member
+
+----version----
+language: en
+version: 1
+revision: 09d93eee-7e87-4170-8a94-fca8e816085d
+
+----field----
+field: {F3DFF903-6B58-4DA8-9FD3-34D4B2AF8F5D}
+name: Actor Name
+key: actor name
+content-length: 10
+
+Jon Voight
+----field----
+field: {8A6F23E7-6767-41C1-8BD4-F021FFB74D24}
+name: Character Name
+key: character name
+content-length: 15
+
+Larry Zoolander
+----field----
+field: {9709DC52-8C65-4133-BCD9-BA1B3F35C95C}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{11F1AC23-3F5F-4F93-93F4-28810F54808C}" />
+----field----
+field: {18E1D413-5B86-4901-B491-74B5ECA1E566}
+name: Quote
+key: quote
+content-length: 76
+
+Damnit Derek, I'm a coal miner, not a professional film or television actor.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T041344Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+09d93eee-7e87-4170-8a94-fca8e816085d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T041410Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

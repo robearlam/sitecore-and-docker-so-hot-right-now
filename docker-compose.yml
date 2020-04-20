@@ -129,6 +129,7 @@ services:
     volumes:
       - .\deploy:C:\src
       - C:\SitecoreRepo\license:C:\license:ro 
+      - C:\Program Files\Microsoft Visual Studio 16.0\Common7\IDE\Remote Debugger:C:\remote_debugger
 
   cm:
     image: ${REGISTRY}/sitecore-xp-sxa-standalone:${SITECORE_VERSION}-windowsservercore-${WINDOWSSERVERCORE_VERSION}
@@ -158,6 +159,7 @@ services:
     volumes:
       - .\deploy:C:\src
       - C:\SitecoreRepo\license:C:\license:ro 
+      - C:\Program Files\Microsoft Visual Studio 16.0\Common7\IDE\Remote Debugger:C:\remote_debugger
 
 volumes:
     data-sql:

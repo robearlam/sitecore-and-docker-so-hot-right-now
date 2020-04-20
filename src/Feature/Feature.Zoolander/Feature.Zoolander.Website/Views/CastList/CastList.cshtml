@@ -7,7 +7,16 @@
 
 <div @Html.Sxa().Component("cast-list", Model.Attributes)>
     <div class="component-content">
-        <h1>You are on @Model.Title page</h1>
-        <p>Cast List will appear in here!</p>
+        @foreach (var castMember in Model.Cast)
+        {
+            <div class="card" style="width: 18rem;">
+                @Html.Sitecore().Field("Image", castMember.Item, new { w = 180, h = 180 })
+                <div class="card-body">
+                    <h5 class="card-title">@Html.Sitecore().Field("Actor Name", castMember.Item) - @Html.Sitecore().Field("Character Name", castMember.Item)</h5>
+                    <p class="card-text">@Html.Sitecore().Field("Quote", castMember.Item).</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        }
     </div>
 </div>

@@ -141,6 +141,7 @@
   <ItemGroup>
     <Compile Include="Controllers\CastListController.cs" />
     <Compile Include="Models\CastListModel.cs" />
+    <Compile Include="Models\CastMemberModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ICastListRepository.cs" />
     <Compile Include="Repositories\CastListRepository.cs" />
