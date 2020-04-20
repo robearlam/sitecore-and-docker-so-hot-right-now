@@ -89,7 +89,7 @@ services:
     mem_limit: 500MB
     restart: unless-stopped
     environment:
-      SITECORE_LICENSE_LOCATION: C:\license\license.xml
+      SITECORE_LICENSE_LOCATION: C:\license
       SITECORE_CONNECTIONSTRINGS_PROCESSING.ENGINE.STORAGE: Data Source=sql;Database=Sitecore.Processing.Engine.Storage;User ID=sa;Password=${SQL_SA_PASSWORD}
       SITECORE_CONNECTIONSTRINGS_PROCESSING.ENGINE.TASKS: Data Source=sql;Database=Sitecore.Processing.Engine.Tasks;User ID=sa;Password=${SQL_SA_PASSWORD}
       SITECORE_CONNECTIONSTRINGS_PROCESSING.WEBAPI.BLOB: http://xconnect
