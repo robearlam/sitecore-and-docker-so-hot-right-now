@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {DB7235B3-959C-462E-9C93-809902379BCB}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Presentation/Rendering Variants/Playlist/Default/MovieCaption
+parent: {6EAEB2F4-DC6F-4011-ACB3-35B5B5A14FA7}
+name: MovieCaption
+master: {FC0838E0-D628-4F4B-B97B-BD518A3FF4A9}
+template: {FCD285DA-9AB2-4C8D-B185-5A7487A9BA1B}
+templatekey: VariantField
+
+----field----
+field: {4753764C-C05A-4623-841B-97F85135241C}
+name: FieldName
+key: fieldname
+content-length: 12
+
+MovieCaption
+----field----
+field: {DCB05E5E-7151-4226-A3B0-108C5E2F05B5}
+name: IsLink
+key: islink
+content-length: 1
+
+1
+----field----
+field: {7495124D-09B5-4CB3-B4A6-FE77A95827DA}
+name: CssClass
+key: cssclass
+content-length: 16
+
+default-playlist
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{55920498-18A3-4EB9-8F3C-73EC61BC5817}
+----version----
+language: en
+version: 1
+revision: 2c3d71fc-a978-4d0f-895f-929f074eed9d
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002755Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2c3d71fc-a978-4d0f-895f-929f074eed9d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002755Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

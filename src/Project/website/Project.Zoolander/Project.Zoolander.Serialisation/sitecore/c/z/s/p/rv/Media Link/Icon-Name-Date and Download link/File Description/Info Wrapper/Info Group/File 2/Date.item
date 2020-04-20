@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {74E9B935-4D73-4006-9E32-F1B28DD3E418}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Presentation/Rendering Variants/Media Link/Icon-Name-Date and Download link/File Description/Info Wrapper/Info Group/File 2/Date
+parent: {E2DBAE47-5A2F-4C8A-8374-76C6AE53847E}
+name: Date
+master: {630530A2-BFBF-4538-8FC0-41F4E5A5A2B8}
+template: {DC4EBC23-A470-4B5D-8DF8-4A55FA823BB4}
+templatekey: VariantDateField
+
+----field----
+field: {4753764C-C05A-4623-841B-97F85135241C}
+name: FieldName
+key: fieldname
+content-length: 9
+
+__Updated
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+600
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{4A2923A1-5F5B-4CE7-A86A-31C536B24095}
+----version----
+language: en
+version: 1
+revision: 48b6d86d-d605-4f99-8699-4047896ebbb9
+
+----field----
+field: {00AA3E05-DD03-47A9-AA1B-03A4DFBB3156}
+name: DateFormat
+key: dateformat
+content-length: 38
+
+{E087488F-8969-4668-AAB6-04BFB10F7193}
+----field----
+field: {FD5230D8-E68D-4E17-9D85-EA676F27AC3A}
+name: Prefix
+key: prefix
+content-length: 1
+
+(
+----field----
+field: {15867CB6-E128-4D78-9D4F-739E5963DFC4}
+name: Suffix
+key: suffix
+content-length: 1
+
+)
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002754Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+48b6d86d-d605-4f99-8699-4047896ebbb9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002754Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

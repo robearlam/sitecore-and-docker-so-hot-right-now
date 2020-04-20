@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {94B079A8-C1AB-4639-BF30-A24ABB6497FE}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Settings/Creative Exchange Storages
+parent: {06CE84FD-FAF3-43E6-BC11-F992CCD9E2DB}
+name: Creative Exchange Storages
+master: {AAB15F53-CC56-44E0-BFC6-1ED18FF81FFB}
+template: {0D792404-79AA-483D-BB0C-50785F2E295B}
+templatekey: Creative Exchange Storage
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{92A521E9-38BD-4591-84DB-31DFC002033D}
+----version----
+language: en
+version: 1
+revision: 40d842c4-211b-4596-a6c1-ef192803915b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002638Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+40d842c4-211b-4596-a6c1-ef192803915b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002638Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

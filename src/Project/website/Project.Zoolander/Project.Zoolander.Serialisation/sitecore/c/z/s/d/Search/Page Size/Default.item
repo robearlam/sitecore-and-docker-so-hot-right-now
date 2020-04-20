@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {E0799CBF-00C6-4105-9C28-475CA976CD31}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Data/Search/Page Size/Default
+parent: {4F80ED9B-D1BE-4321-9728-BEF6F5100831}
+name: Default
+master: {957565A0-BF0D-4F8B-BF2C-4A8F40EC9080}
+template: {41CBDC01-C2DF-4768-8ADD-87FB6B5A434B}
+templatekey: Pagging
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{96B5B464-46C5-4C9C-9C52-B7FFCD18880E}
+----version----
+language: en
+version: 1
+revision: 8b14300f-ab46-49fd-acc2-064f09feed92
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002842Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8b14300f-ab46-49fd-acc2-064f09feed92
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002842Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

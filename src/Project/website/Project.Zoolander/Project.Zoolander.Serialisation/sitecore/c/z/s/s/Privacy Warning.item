@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {59409A39-B84B-40C1-BF3C-C46140ED6AF4}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Settings/Privacy Warning
+parent: {06CE84FD-FAF3-43E6-BC11-F992CCD9E2DB}
+name: Privacy Warning
+master: {00000000-0000-0000-0000-000000000000}
+template: {DC66D5DA-3216-48E6-AE78-BAC8445B6A46}
+templatekey: Privacy Warning
+
+----version----
+language: en
+version: 1
+revision: a6827586-1c53-40e3-acd5-545bbac34b59
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002707Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a6827586-1c53-40e3-acd5-545bbac34b59
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002707Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

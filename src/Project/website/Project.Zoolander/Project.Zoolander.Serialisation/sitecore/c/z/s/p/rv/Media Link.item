@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {6D84E003-1940-4C1C-BCBF-912A18F0EC59}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Presentation/Rendering Variants/Media Link
+parent: {F50F88AD-0538-4C96-8BEB-3F7874015D7C}
+name: Media Link
+master: {630530A2-BFBF-4538-8FC0-41F4E5A5A2B8}
+template: {E1A3B30C-77BC-4F6C-A008-D01B3371235D}
+templatekey: Variants
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 36
+
+Office/32x32/clapperboard_closed.png
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{EAD1668B-81F5-4C56-8B16-0AF9E7A3AEB3}
+----version----
+language: en
+version: 1
+revision: 57793159-9db0-4373-9933-eee424bc9cc5
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002753Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+57793159-9db0-4373-9933-eee424bc9cc5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002754Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {F5F693C1-D933-41B8-BA31-E5EEB2DD4FBC}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Presentation/Rendering Variants/Media Link/Icon-Name-Date and Download link/File Description/Info Wrapper
+parent: {34331F06-F700-47A9-AD3D-297F571EFDFC}
+name: Info Wrapper
+master: {630530A2-BFBF-4538-8FC0-41F4E5A5A2B8}
+template: {ACA5C9A3-CDA0-49B6-893F-1D4A7CB595B0}
+templatekey: VariantSection
+
+----field----
+field: {BEA2740E-90D1-4B16-BD1D-7A7CC8605D2D}
+name: CssClass
+key: cssclass
+content-length: 12
+
+info-wrapper
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{DB9E9F01-564C-483D-9CE8-B7F7F3D89A15}
+----version----
+language: en
+version: 1
+revision: 02bf50ed-68da-4e04-8b8f-366b519362b3
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002754Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+02bf50ed-68da-4e04-8b8f-366b519362b3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002754Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {4EFB4252-C0A5-4FB3-8244-F6CDC05CC340}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Data/Search/Sort Results/Default/Title Asc
+parent: {294889E1-8F91-484A-888A-7712CC94A0BA}
+name: Title Asc
+master: {957565A0-BF0D-4F8B-BF2C-4A8F40EC9080}
+template: {3E53AC1B-65E8-4AE2-8C5B-8BAF9C3D655E}
+templatekey: Sorting
+
+----field----
+field: {C95B7BAD-FA93-41F0-82DE-C2C2BF0A0E89}
+name: Facet
+key: facet
+content-length: 38
+
+{2B1EC174-E2F9-41EB-8D00-9DE7ED289BF7}
+----field----
+field: {73A7C430-816E-4481-B4C1-3AB8C2C1052B}
+name: Direction
+key: direction
+content-length: 38
+
+{71617747-9B14-4E49-8C1B-DBF4669B729F}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{91639E66-920F-4C5F-BDA2-17875B98A32C}
+----version----
+language: en
+version: 1
+revision: ca619e79-cec3-4747-95d5-f84f714e1a21
+
+----field----
+field: {F3B01C7D-BD46-4972-AB13-4C9C95C4F23D}
+name: Title
+key: title
+content-length: 9
+
+Title Asc
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002843Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ca619e79-cec3-4747-95d5-f84f714e1a21
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002848Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

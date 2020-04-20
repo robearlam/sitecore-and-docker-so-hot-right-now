@@ -349,13 +349,6 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-
-data/**/*
-data/**
-!data/*/
-!data/**/*/
-!data/**/*/.gitkeep
-
 deploy/**
 !deploy/*/
 !deploy/.gitkeep

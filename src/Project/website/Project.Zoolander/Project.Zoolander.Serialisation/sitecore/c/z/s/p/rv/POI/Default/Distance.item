@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {B85CA249-FAA2-4361-B328-CE22B0D49776}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Presentation/Rendering Variants/POI/Default/Distance
+parent: {935C5F42-0571-4452-BACA-87CCD91673CA}
+name: Distance
+master: {0F31020C-79AF-47C9-B8E6-C98720AE8A13}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {8A85A595-3298-4EB1-96DD-C882EE5802AE}
+name: Tag
+key: tag
+content-length: 38
+
+{18C8C889-C723-452A-970C-7CE4D41EE371}
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 108
+
+{{ if o_geospatial }}
+Distance: {{ o_geospatial.distance | math.round 1 }} {{ o_geospatial.unit }}
+{{end}}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{D2968AE1-7D7B-4F38-8D7C-9A5FD08633AD}
+----version----
+language: en
+version: 1
+revision: ad4d2054-5f29-41dd-bdb3-7f105ca649e9
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002733Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ad4d2054-5f29-41dd-bdb3-7f105ca649e9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002733Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

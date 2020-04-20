@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {54F0F37D-B401-4803-A873-A6CA74B6192D}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Data/Search/Date Filter/Default
+parent: {8C261623-8B50-4E67-9694-919B7237F825}
+name: Default
+master: {957565A0-BF0D-4F8B-BF2C-4A8F40EC9080}
+template: {AD89C1F1-E991-48EF-8659-38AB13AA28F1}
+templatekey: Date Filter
+
+----field----
+field: {734F9A5A-C02A-4D34-87E8-29C732D8EB67}
+name: Facet
+key: facet
+content-length: 38
+
+{87A830FB-4E2F-4F76-896B-F20CFA2374DD}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{B2960D81-4DE1-4C3E-A0A7-20F544AD36D7}
+----version----
+language: en
+version: 1
+revision: 8072f6ee-aa49-4e50-8a85-45f9f2e80216
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002841Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8072f6ee-aa49-4e50-8a85-45f9f2e80216
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002841Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

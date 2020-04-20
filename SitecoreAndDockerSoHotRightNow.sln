@@ -13,11 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".SolutionItems", ".Solution
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{E89E24CC-45E5-4FB1-AC08-1275307CA859}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature.Sample", "Feature.Sample", "{CE9DB945-0F4A-4434-82A1-9476CA8FF532}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{BDB3A487-40E0-4309-AA4C-DC5ACC97923C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Sample.Website", "src\Feature\Feature.Sample\website\Feature.Sample.Website.csproj", "{AE9AE4F4-D995-41BA-BB85-F2346ACD01FF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{CCFE06D1-E576-40A7-8B9C-1CD77BF52A35}"
 EndProject
-Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Feature.Sample.Serialisation", "src\Feature\Feature.Sample\serialisation\Feature.Sample.Serialisation\Feature.Sample.Serialisation.scproj", "{4876B168-270E-46B3-AFF9-4406931DA14B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project.Zoolander", "Project.Zoolander", "{B65F3DF2-7CC5-4286-AFCA-6B40CAC401AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Zoolander.Website", "src\Project\website\Project.Zoolander\Project.Zoolander.Website\Project.Zoolander.Website.csproj", "{5B8FD69C-8799-4112-8E36-1326394EDBD7}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Project.Zoolander.Serialisation", "src\Project\website\Project.Zoolander\Project.Zoolander.Serialisation\Project.Zoolander.Serialisation.scproj", "{4C4145CF-6726-4FF0-B8B6-C82D258484CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature.Zoolander", "Feature.Zoolander", "{15E73964-F1B9-4F21-8D58-36D4F0250544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Zoolander.Website", "src\Feature\Feature.Zoolander\Feature.Zoolander.Website\Feature.Zoolander.Website.csproj", "{8C2E9F17-2A6B-4D2E-8F16-E639B147AA1D}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Feature.Zoolander.Serialisation", "src\Feature\Feature.Zoolander\Feature.Zoolander.Serialisation\Feature.Zoolander.Serialisation.scproj", "{7EEC0CBA-F61D-43E9-B8A5-21660D61DEBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,24 +35,37 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE9AE4F4-D995-41BA-BB85-F2346ACD01FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE9AE4F4-D995-41BA-BB85-F2346ACD01FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE9AE4F4-D995-41BA-BB85-F2346ACD01FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE9AE4F4-D995-41BA-BB85-F2346ACD01FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4876B168-270E-46B3-AFF9-4406931DA14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4876B168-270E-46B3-AFF9-4406931DA14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4876B168-270E-46B3-AFF9-4406931DA14B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{4876B168-270E-46B3-AFF9-4406931DA14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4876B168-270E-46B3-AFF9-4406931DA14B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4876B168-270E-46B3-AFF9-4406931DA14B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5B8FD69C-8799-4112-8E36-1326394EDBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8FD69C-8799-4112-8E36-1326394EDBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8FD69C-8799-4112-8E36-1326394EDBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8FD69C-8799-4112-8E36-1326394EDBD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C4145CF-6726-4FF0-B8B6-C82D258484CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C4145CF-6726-4FF0-B8B6-C82D258484CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C4145CF-6726-4FF0-B8B6-C82D258484CC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4C4145CF-6726-4FF0-B8B6-C82D258484CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C4145CF-6726-4FF0-B8B6-C82D258484CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C4145CF-6726-4FF0-B8B6-C82D258484CC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8C2E9F17-2A6B-4D2E-8F16-E639B147AA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2E9F17-2A6B-4D2E-8F16-E639B147AA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2E9F17-2A6B-4D2E-8F16-E639B147AA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2E9F17-2A6B-4D2E-8F16-E639B147AA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEC0CBA-F61D-43E9-B8A5-21660D61DEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEC0CBA-F61D-43E9-B8A5-21660D61DEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEC0CBA-F61D-43E9-B8A5-21660D61DEBE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7EEC0CBA-F61D-43E9-B8A5-21660D61DEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEC0CBA-F61D-43E9-B8A5-21660D61DEBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEC0CBA-F61D-43E9-B8A5-21660D61DEBE}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{CE9DB945-0F4A-4434-82A1-9476CA8FF532} = {E89E24CC-45E5-4FB1-AC08-1275307CA859}
-		{AE9AE4F4-D995-41BA-BB85-F2346ACD01FF} = {CE9DB945-0F4A-4434-82A1-9476CA8FF532}
-		{4876B168-270E-46B3-AFF9-4406931DA14B} = {CE9DB945-0F4A-4434-82A1-9476CA8FF532}
+		{B65F3DF2-7CC5-4286-AFCA-6B40CAC401AF} = {CCFE06D1-E576-40A7-8B9C-1CD77BF52A35}
+		{5B8FD69C-8799-4112-8E36-1326394EDBD7} = {B65F3DF2-7CC5-4286-AFCA-6B40CAC401AF}
+		{4C4145CF-6726-4FF0-B8B6-C82D258484CC} = {B65F3DF2-7CC5-4286-AFCA-6B40CAC401AF}
+		{15E73964-F1B9-4F21-8D58-36D4F0250544} = {E89E24CC-45E5-4FB1-AC08-1275307CA859}
+		{8C2E9F17-2A6B-4D2E-8F16-E639B147AA1D} = {15E73964-F1B9-4F21-8D58-36D4F0250544}
+		{7EEC0CBA-F61D-43E9-B8A5-21660D61DEBE} = {15E73964-F1B9-4F21-8D58-36D4F0250544}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DA9C899-6AE2-4CF4-A321-B1DED3331E47}

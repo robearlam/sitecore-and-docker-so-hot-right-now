@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {B1BC5669-733F-4135-A4CE-028422A68B0A}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Data/Tabs
+parent: {336AB4F3-815D-4856-B2D1-4091B2B2D1AC}
+name: Tabs
+master: {00000000-0000-0000-0000-000000000000}
+template: {1EF29B63-5B98-463C-B3C8-66DFE99BD641}
+templatekey: Tabs Folder
+
+----version----
+language: en
+version: 1
+revision: d932923b-e245-40e2-9ded-8bb26850b420
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002714Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d932923b-e245-40e2-9ded-8bb26850b420
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002714Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

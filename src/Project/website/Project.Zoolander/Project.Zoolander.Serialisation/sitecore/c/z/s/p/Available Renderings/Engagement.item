@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {A49FAC18-AE97-466A-A025-77BFDB6B845A}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Presentation/Available Renderings/Engagement
+parent: {7628CA96-B39F-41EA-AB8E-D800A4FA8CDA}
+name: Engagement
+master: {5D61ACC5-EC6E-42E9-996A-143A7B525D8A}
+template: {76DA0A8D-FC7E-42B2-AF1E-205B49E43F98}
+templatekey: Available Renderings
+
+----field----
+field: {715AE6C0-71C8-4744-AB4F-65362D20AD65}
+name: Renderings
+key: renderings
+content-length: 77
+
+{ACDA272A-F7B6-42A5-9FDF-C6323FB160E8}|{4DF237E8-B788-4145-A5C1-3F2158107BE8}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{46958786-4F2A-4129-9AA1-58A14E118981}
+----version----
+language: en
+version: 1
+revision: 91058995-6283-42a3-a995-93e39a9d1db9
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002716Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+91058995-6283-42a3-a995-93e39a9d1db9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002716Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

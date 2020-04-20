@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {0406829F-02CD-4F3C-BB76-DC80A1C2DCC8}
+database: master
+path: /sitecore/content/Zoolander/SoHotRightNow/Data/Search/Radius Filter/Radius Filter
+parent: {FA4F64DB-187C-4D44-8B8E-DE22D67A3EF5}
+name: Radius Filter
+master: {00000000-0000-0000-0000-000000000000}
+template: {DE3FA58E-EF9D-4544-9F77-DCD1DBB05B64}
+templatekey: Radius Filter
+
+----field----
+field: {AE5D211A-4FF1-4E9E-BA0F-9442B0ABCA91}
+name: Facet
+key: facet
+content-length: 38
+
+{0B5A4C02-49E2-4FBE-9400-1BE84781329B}
+----version----
+language: en
+version: 1
+revision: f5c53d6e-8b99-43c3-81ff-f78d79649642
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T002849Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f5c53d6e-8b99-43c3-81ff-f78d79649642
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T002849Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
